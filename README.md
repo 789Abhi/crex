@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+Request URL: https://api.parthcricket.com/oc/rank/rankingFront
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,0 +1,16 @@
+.latest__news{
+   
+    background-color: #10151C;
+    height: max-content;
+    padding: 50px;
+}
+.latest__news >h4{
+    
+    color: #CFD1D3;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+

@@ -1,0 +1,79 @@
+.slider__head{
+    background-color: #15222e;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    
+}
+.slider__head >img{
+    height:12px;
+    width:18px;
+
+}
+.slider__card{
+   border: 1px solid gray;
+    width: max-content;
+    column-gap: 16px;
+   
+   
+}
+h5::before{
+    content: '. Live';
+    color:#FF7575;
+    width: 22px;
+    height: 22px;
+    padding-right: 10px;
+}
+h5::after{
+    content: 'IPL 2023';
+    color:white;
+    width: 22px;
+    height: 22px;
+    padding-left: 10px;
+}
+
+.slider__body{
+    border-color: #131E29;
+    padding: 13px;
+}
+.slider__body >span{
+    color: #9FA3A7;
+    font-size: 11px;
+    padding-left: 10px;
+}
+.team1__score{
+    display: flex;
+    align-items: center;
+     color: #CFD1D3;
+     padding-top: 10px;
+     gap: 3px;
+}
+.team1__score >img{
+   height: 32px;
+   width: 32px;
+
+}
+.team2__score >img{
+   height: 32px;
+   width: 32px;
+  
+}
+.team2__score{
+    display: flex;
+    align-items: center;
+    color: #9FA3A7;
+    padding-top: 10px;
+    gap: 3px;
+}
+.slider__tail{
+    padding: 10px;
+
+}
+.slider__tail >span{
+    color: #EAAE54;
+    font-size: 12px;
+    padding-left: 10px;
+}
