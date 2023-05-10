@@ -1,0 +1,15 @@
+
+.dropdown__cards >h4{
+   color: white;
+   padding-top: 10px;
+   font-size: 20px;
+   font-weight: 600;
+}
+.series__list{
+   display: flex;
+  
+}
+.dropdown__cards:hover{
+   display: flex;
+   flex-direction: row;
+}

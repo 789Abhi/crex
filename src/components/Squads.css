@@ -1,0 +1,22 @@
+.squads{
+    display: flex;
+    padding-top: 20px;
+    gap: 30px;
+    padding-right: 50px;
+}
+h2{
+    font-family: EuclidMedium;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #cfd1d3;
+    padding-top: 20px;
+
+}
+.squadslist{
+    width:30%;
+   
+}
+.squadmembers{
+    width: 70%;
+}

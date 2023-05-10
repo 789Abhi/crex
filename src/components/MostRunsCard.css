@@ -1,0 +1,48 @@
+.Most__Runs__Card{
+    margin-top: 20px;
+    border: 1px solid hsla(0,0%,100%,.04);
+    padding: 12px 0 12px 16px;
+    width: 390px;
+    position: relative;
+    background-color: rgb(20, 30, 39);
+}
+.player__info{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border-top: 1px solid #1e2833;
+  
+}
+.image__info >img{
+    width: 78px;
+}
+.dress__image >img{
+    width: 78px;
+}
+.dress__image{
+    position: absolute;
+    bottom: 0;
+}
+span{
+    color: #9fa3a7;
+    opacity: 0.8;
+}
+.name span{
+    color: #9fa3a7;
+    opacity:0.9;
+}
+
+.name h2{
+    color: #CFD1D3;
+    font-size:20px;
+}
+.score span{
+    color: #9fa3a7;
+    opacity:0.9;
+
+}
+.score h2{
+    color: #CFD1D3;
+    font-size:30px;
+
+}

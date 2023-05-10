@@ -1,0 +1,26 @@
+.series__cards{
+  background-color: #162330;
+ padding: 20px;
+ display: flex;
+ gap: 30px;
+}
+a{
+  text-decoration: none;
+}
+.series__cards h4{
+  
+ padding: 10px 0 10px 0;
+ font-size: 12px;
+ font-weight: 600;
+ color: white;
+ text-decoration: none;
+}
+.cards >img{
+  width: 100px;
+  height: 119px;
+  border-radius: 10px;
+  opacity: 0.4;
+}
+.cards >img:hover{
+ opacity: 100;
+}

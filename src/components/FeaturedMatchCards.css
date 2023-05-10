@@ -1,0 +1,62 @@
+.Featured__Match__Cards{
+    background-color:#10151C;
+    border: 1px solid #1e2833;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    max-width: 700px;
+    
+
+
+}
+.Featured__Match__Cards:hover{
+    background-color:#162330;
+    cursor: pointer;
+    border: 1px solid #1e2833;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+.team1__info {
+    display: flex;
+    align-items: center;
+}
+.team2__info {
+    display: flex;
+    align-items: center;
+}
+.team1__info img{
+    width: 56px;
+    height: 56px;
+}
+.team1__info h4{
+    font-family: Euclid Regular;
+    color: #fcfcfc;
+
+}
+.team2__info h4{
+    font-family: Euclid Regular;
+    color: #fcfcfc;
+
+}
+.team2__info img{
+    width: 56px;
+    height: 56px;
+}
+.match__date__time span{
+    font-weight: 600;
+    font-size: 12px;
+    opacity: .7;
+    color: #9fa3a7;
+   
+}
+.match__date__time h3{
+    font-weight: 800;
+    font-size: 16px;
+    padding-top:6px;
+    padding-bottom: 6px;
+    color: #cfd1d3;
+}

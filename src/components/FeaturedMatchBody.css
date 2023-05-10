@@ -1,0 +1,105 @@
+.featuredmatch__body{
+    background-color:#10151C;
+   padding-top: 20px;
+   display: flex;
+   gap: 200px;
+   
+  
+}
+
+.featuredmatch__body h2{
+    color:#fcfcfc;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+   font-family: Rajdhani Semibold;
+      opacity: 0.8;
+}
+.featuredmatch__body a{
+    color:#6eb4ef;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+   font-family: Rajdhani Semibold;
+      opacity: 0.8;
+      text-decoration: none;
+}
+.featuredmatch__body a::after{
+    color:#6eb4ef;
+    content: '>';
+    padding-left: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+   font-family: Rajdhani Semibold;
+      opacity: 0.8;
+      text-decoration: none;
+}
+@media (max-width:768px)
+{
+    .featuredmatch__body h2{
+        color:#fcfcfc;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px !important;
+       font-family: Rajdhani Semibold;
+          opacity: 0.8;
+    }
+    .featuredmatch__body a{
+        color:#6eb4ef;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+       font-family: Rajdhani Semibold;
+          opacity: 0.8;
+          text-decoration: none;
+    }
+    .featuredmatch__body{
+        background-color:#10151C;
+       padding-top: 20px;
+       display: flex;
+       justify-content: space-between;
+       
+      
+    }
+}
+
+.FeaturedMatch__Cards{
+    padding-top: 30px;
+    width: 60%;
+    border-right: 1px solid #1e2833; 
+    padding-right: 25px;
+}
+.FeaturedMatch__Cards__stats{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+.stats{
+    width: 40%;
+    
+    padding-left: 20px;
+}
+
+@media (max-width:768px)
+{
+    .FeaturedMatch__Cards__stats{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .FeaturedMatch__Cards{
+        padding-top: 30px;
+        width: 100%;
+    }
+    .stats{
+        padding-top: 20px;
+        width: 100%;
+    }
+}
+.points__table{
+    padding-top: 20px;
+}

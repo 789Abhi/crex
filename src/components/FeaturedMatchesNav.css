@@ -1,0 +1,50 @@
+.Featured__Matches{
+    background-color:#10151C;
+    padding:10px 0 35px 120px ;
+}
+.lists{
+    display: flex;
+    gap: 23px;
+} 
+@media (max-width:768px)
+{
+    .Featured__Matches{
+        background-color:#10151C;
+        padding:10px !important ;
+    }
+.lists li{
+    color: #fcfcfc;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px !important;
+   list-style: none;
+   cursor: pointer;
+   font-family: Rajdhani Semibold;
+      opacity: 0.8;
+}
+.lists li.active {
+    border-bottom: 2px solid #ff7575;
+    padding-bottom: 8px;
+    background-color:#10151C;
+    font-family: Rajdhani Semibold ;
+    opacity: 1;
+  }
+   }
+
+.lists li{
+    color: #fcfcfc;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+   list-style: none;
+   cursor: pointer;
+   font-family: Rajdhani Semibold;
+      opacity: 0.8;
+}
+.lists li.active {
+    border-bottom: 2px solid #ff7575;
+    padding-bottom: 8px;
+    background-color:#10151C;
+    font-family: Rajdhani Semibold ;
+    opacity: 1;
+  }

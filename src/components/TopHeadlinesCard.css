@@ -1,0 +1,43 @@
+.top_headlines__cards{
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    background-color: #10151C;
+
+   
+}
+.left__content img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    opacity: 1;
+   
+   
+}
+.left__content img:hover{
+    width: 64px;
+    height: 64px;
+    object-fit:cover;
+    opacity: 0.8;
+   
+   
+}
+.right__content {
+    border-bottom: 1px solid #1e2833;
+    padding-bottom: 10px;
+}
+.right__content p{
+    color: #cfd1d3;
+    font-family: Suisse Screen;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    max-width: 250px;
+
+}
+.right__content span{
+    color: #9fa3a7;
+    font-family: Suisse Screen;
+    font-size: 12px;
+    font-weight: 700;
+}

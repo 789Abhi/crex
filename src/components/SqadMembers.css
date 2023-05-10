@@ -1,0 +1,39 @@
+.batsman h6{
+color: #cfd1d3;
+font-family: EuclidMedium;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.bowlers h6{
+color: #cfd1d3;
+font-family: EuclidMedium;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+.all__rounders h6{
+color: #cfd1d3;
+font-family: EuclidMedium;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+
+.squad__list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    cursor: grab;
+}
+.squad__list >img{
+    width: 72px;
+    height: 72px;
+}

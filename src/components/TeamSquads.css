@@ -1,0 +1,12 @@
+.team__squads h3{
+    font-family: EuclidMedium;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #cfd1d3;
+    padding-top: 30px;
+  
+}
+.team__squads{
+    max-width: 670px;
+}

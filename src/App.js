@@ -1,16 +1,24 @@
 import React from 'react'
-import { motion } from "framer-motion";
-import Header from './components/Header';
-import Slider from './components/Slider';
-import LatestNews from './components/LatestNews';
+import './App.css'
+import {BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import Home from './components/Home';
+import Series from './components/Series';
+import SeriesInfo from './components/SeriesInfo';
+import FeaturedMatchBody from './components/FeaturedMatchBody';
 
 function App() {
   return (
-    <>
-      <Header/>
-      <Slider/>
-      <LatestNews/>
-   </>
+   <div className='app'>
+    <Router>
+    <Routes>
+      <Route exact path="/"  element={<Home/>}/>
+      <Route  path="/series"  element={<Series/>}/>
+      <Route  path="/ipl-Series-info"  element={<SeriesInfo/>}/>
+      <Route  path="/featuredmatch-body"  element={<FeaturedMatchBody/>}/>
+    </Routes>
+    </Router>
+    
+   </div>
     
   )
 }

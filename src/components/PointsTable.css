@@ -1,0 +1,104 @@
+.points__table__head h1{
+    font-family: EuclidMedium;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #cfd1d3;
+  
+}
+.points__table__head span{
+    font-family: EuclidMedium;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    color: #9fa3a7;
+  
+}
+.points__table__head{
+    display:flex;
+    padding-top: 40px;
+    gap: 430px;
+}
+.span__switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .toggle__container {
+    height: 17px;
+    width: 34px;
+    background-color: #ccc;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dialog-button {
+    height: 15px;
+    width: 18px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .dialog-button.active {
+    transform: translateX(15px);
+    background-color: #ff7575;
+  }
+ .head table thead tr th {
+    color: #9fa3a7;
+    font-size: 14px;
+    padding: 10px;
+    font-family: EuclidMedium;
+    font-weight: 800;
+ }
+ .head table tbody td {
+    color: #9fa3a7;
+    font-family: EuclidMedium;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #162330;
+     
+ }
+ @media (max-width:768px)
+ {
+    .head table tbody td {
+        color: #9fa3a7; 
+        font-size: 14px;
+        text-align: center;
+        border-bottom: 1px solid #162330;
+         
+     }
+     table {
+        border-collapse:collapse;
+        text-indent:1px !important;
+    }
+ }
+ .head table tbody tr img{
+    width:40px;
+    height: 40px;
+ }
+ thead{
+    background-color: #162330;
+ }
+ table {
+    border-collapse:collapse;
+    text-indent:17px;
+    border-spacing: 5px;
+}
+.head .pts{
+    color: #eaae54!important;
+}
+  
+.head .team__name{
+    text-align: start;
+}
+  
+  
+

@@ -1,0 +1,46 @@
+.squad__lists{
+    background:linear-gradient(270.12deg,rgba(51,149,191,0.1) 0.07%,rgba(51,149,191,0.1) 93.63%,rgba(51,149,191,0) 99.87%);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: grab;
+    border-right: 1px solid #ff7575;
+}
+.squad__lists:active{ 
+    
+    border-right: 1px solid red;
+}
+.right__content h6{
+  color: #CFD1D3;
+  font-size: 16px;
+  font-family: Euclid Regular;
+ 
+}
+.right__content {
+    border: none;
+    max-width: 200px;
+}
+.squad__lists >img{
+    width: 48px;
+    height: 48px;
+}
+.squad__overflow{
+    overflow-y: scroll;
+    height: 500px;
+}
+.squad__overflow::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+.squad__overflow::-webkit-scrollbar-thumb{
+    
+    background-color: gray;
+    width: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
