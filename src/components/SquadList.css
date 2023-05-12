@@ -8,10 +8,10 @@
     cursor: grab;
     border-right: 1px solid #ff7575;
 }
-.squad__lists:active{ 
-    
-    border-right: 1px solid red;
+.squad__lists:active {
+    border-right: 1px solid crimson;
 }
+
 .right__content h6{
   color: #CFD1D3;
   font-size: 16px;

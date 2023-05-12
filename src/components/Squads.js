@@ -4,7 +4,7 @@ import SqadMembers from "./SqadMembers";
 import "./Squads.css";
 
 function Squads() {
-  const [selectedSquad, setSelectedSquad] = useState(0);
+  const [selectedSquad, setSelectedSquad] = useState(null);
 
   const handleSquadClick = (squad) => {
     setSelectedSquad(squad);

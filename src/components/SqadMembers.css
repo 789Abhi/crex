@@ -1,4 +1,4 @@
-.batsman h6{
+.heading h6{
 color: #cfd1d3;
 font-family: EuclidMedium;
     font-style: normal;
@@ -6,34 +6,63 @@ font-family: EuclidMedium;
     font-size: 18px;
     text-transform: uppercase;
 }
-.bowlers h6{
-color: #cfd1d3;
-font-family: EuclidMedium;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    text-transform: uppercase;
+.batsman{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 
 }
-.all__rounders h6{
-color: #cfd1d3;
-font-family: EuclidMedium;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    text-transform: uppercase;
-
+.bowlers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
-
-
+.all__rounders{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 .squad__list{
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     cursor: grab;
 }
 .squad__list >img{
     width: 72px;
     height: 72px;
+}
+.batsman__details{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding:10px;
+
+}
+.yellow{
+    color: yellow;
+}
+
+.batsman__details:hover{
+    background:linear-gradient(270.12deg,rgba(51,149,191,0.1) 0.07%,rgba(51,149,191,0.1) 93.63%,rgba(51,149,191,0) 99.87%);
+    cursor: pointer;
+
+}
+.batsman__image img{
+    width: 77px;
+}
+.batsman__image{
+    position: relative;
+}
+.team_jersey img{
+    position: absolute;
+    bottom: -4px;
+   
+}
+.batsman__info h4{
+    color: #cfd1d3;
+    font-size: 16px;
+    font-family: Euclid Regular;
+    font-style: normal;
+    font-weight: 800;
 }
