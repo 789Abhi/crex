@@ -3,6 +3,7 @@
    padding-top: 20px;
    display: flex;
    gap: 200px;
+   align-items: baseline;
    
   
 }
